@@ -1,0 +1,301 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#top{
+    width: 1050px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: lightseagreen;
+    
+}
+#left_top{
+    max-width: 400px;
+    height: 300px;
+    background-image: url("khaly_ruot.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+#Khaly_Ruot{
+    width:250px;
+}
+
+p{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right_top{
+    max-width: 800px;
+    max-height: 250px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#about_me{
+    padding-left: 20px;
+}
+#about_me_profile{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#social_media{
+    padding-right: 20px;
+}
+h1{
+    font-size: 30px;
+
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+   
+}
+
+a{
+    padding: 5px;
+    color: black;
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-color: lightgreen
+    
+    
+}
+#my_work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle_project{
+    max-height: 500px;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 150px;
+    row-gap: 150px;
+    justify-content: center;
+    
+}
+button{
+    padding: 80px 80px;
+    align-items: center;
+}
+
+#bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1050px;
+    height: 300px;
+    background-color: lightseagreen;
+   
+   
+}
+#bottom_left{
+    width: 250px;
+    padding: 80px;
+}
+#bottom_right{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+img{
+    max-width: 400px;
+    max-height: 250px;
+}
+
+@media (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    #top{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background-color: lightseagreen;
+        
+    }
+    #left_top{
+        max-width: 500px;
+        height: 400px;
+        background-image: url("khaly_ruot.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+    
+    }
+
+    #Khaly_Ruot{
+        width: 500px;
+    }
+    p{
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right_top{
+        max-width: 500px;
+        max-height: 150px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-bottom: 15px;
+    }
+    #about_me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+        
+    }
+    #about_me_profile{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+   
+    h1{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    
+    h2{
+        font-size: 15px;
+        text-align: center;
+        font-weight: lighter;
+    }
+    
+    #social_media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    a{
+        color: black;
+    }
+
+    #project{
+        display: grid;
+        grid-template-columns: 2fr 6fr;
+        justify-content: center;
+        width: 500px;
+        height: 600px;
+        background-color: lightgreen
+        
+    }
+    #my_work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+    
+    #middle_project{
+        display:flex;
+        flex-direction: column;
+        max-height: 100px;
+        
+    }
+
+    button{
+        height: 5px;
+        width: 5px;
+        
+    }
+    
+
+    
+    #bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: lightseagreen;
+
+    }
+    #bottom_left{
+    width: 500px;
+    padding: 5px;
+    }
+    #bottom_right{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    }
+    img{
+    width: 300px;
+    max-height: 100px;
+    }
+    
+    
+}
+
+
+
