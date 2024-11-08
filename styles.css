@@ -8,14 +8,12 @@ body{
 
 #top{
     width: 1050px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: linear-gradient(-10deg, white 40%, rgb(88, 204, 243) 25%);
-    
-   
     
 }
 #left_top{
@@ -50,7 +48,7 @@ p{
 
 #right_top{
     max-width: 500px;
-    max-height: 200px;
+    max-height: 210px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     background-color: white;
@@ -84,6 +82,7 @@ h2{
     flex-direction: row;
     justify-content: flex-end;
     align-items: end;
+    
    
 }
 
@@ -96,6 +95,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 150px;
     height: 800px;
     
     
@@ -122,6 +122,45 @@ a{
 button{
     padding: 80px 80px;
     align-items: center;
+}
+#battleship_button{
+    width: 200px;
+    height: 200px;
+    background-image: url("battle_ship.png");
+    background-size: cover;
+}
+#tictactoe_button{
+    width: 200px;
+    height: 200px;
+    background-image: url("tictaktoe.png");
+    background-size: cover;
+}
+#todolist_button{
+    width: 200px;
+    height: 200px;
+    background-image: url("todolist.png");
+    background-size: cover;
+}
+
+#calculator_project{
+    width: 200px;
+    height: 200px;
+    background-image: url("calculator.jpg");
+    background-size: cover;
+}
+
+#sign_up_form_button{
+    width: 200px;
+    height: 200px;
+    background-image: url("sign-up-form.png");
+    background-size: cover;
+}
+
+#admin_dashboard_button{
+    width: 200px;
+    height: 200px;
+    background-image: url("dashboard-project.png");
+    background-size: cover;
 }
 
 #project_button{
@@ -158,7 +197,7 @@ button{
     justify-content: flex-start;
     align-items: center;
     width: 1050px;
-    height: 500px;
+    height: 350px;
     background-color: lightseagreen;
    
    
@@ -176,8 +215,8 @@ button{
 
 }
 img{
-    max-width: 500px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 250px;
 }
 
 @media (max-width: 900px){
@@ -235,9 +274,9 @@ img{
         display: grid;
         grid-template-rows: 1fr 2fr 1fr;
         padding-right: 10px;
+        margin-left: 0px;
         box-shadow: 1px 1px rgb(36, 31, 31);
     }
-   
     
     #about_me{
         padding-left: 20px;
@@ -277,8 +316,9 @@ img{
         flex-direction: column;
         justify-content: flex-start;
         width: 700px;
-        height: 800px;
+        height: 1000px;
         background-color: white;
+        padding-left: 90px;
     }
     
 
@@ -295,12 +335,52 @@ img{
         grid-template-columns: 200px 200px;
         grid-template-rows: 100px 100px 100px 100px;
         column-gap: 200px;
-        row-gap: 100px;
+        row-gap: 200px;
     }
    
     button{
         padding: 40px 60px;
         align-items: center;
+    }
+
+    #battleship_button{
+        width: 200px;
+        height: 150px;
+        background-image: url("battle_ship.png");
+        background-size: cover;
+    }
+    #tictactoe_button{
+        width: 200px;
+        height: 150px;
+        background-image: url("tictaktoe.png");
+        background-size: cover;
+    }
+    #todolist_button{
+        width: 200px;
+        height: 150px;
+        background-image: url("todolist.png");
+        background-size: cover;
+    }
+    
+    #calculator_project{
+        width: 200px;
+        height: 150px;
+        background-image: url("calculator.jpg");
+        background-size: cover;
+    }
+    
+    #sign_up_form_button{
+        width: 200px;
+        height: 150px;
+        background-image: url("sign-up-form.png");
+        background-size: cover;
+    }
+    
+    #admin_dashboard_button{
+        width: 200px;
+        height: 150px;
+        background-image: url("dashboard-project.png");
+        background-size: cover;
     }
     
     #bottom{
@@ -439,8 +519,9 @@ img{
         justify-content: flex-start;
         align-items: center;
         width: 500px;
-        height: 1300px;
-        background-color: lightgreen
+        height: 1150px;
+        background-color:rgba(247, 230, 230, 0.863);
+        padding-left: 0px;
         
     }
     #my_work{
@@ -465,7 +546,45 @@ img{
         align-items: center;
         
     }
+    #battleship_button{
+        width: 100px;
+        height: 50px;
+        background-image: url("battle_ship.png");
+        background-size: cover;
+    }
+    #tictactoe_button{
+        width: 100px;
+        height: 50px;
+        background-image: url("tictaktoe.png");
+        background-size: cover;
+    }
+    #todolist_button{
+        width: 100px;
+        height: 50px;
+        background-image: url("todolist.png");
+        background-size: cover;
+    }
     
+    #calculator_project{
+        width: 100px;
+        height: 50px;
+        background-image: url("calculator.jpg");
+        background-size: cover;
+    }
+    
+    #sign_up_form_button{
+        width: 100px;
+        height: 50px;
+        background-image: url("sign-up-form.png");
+        background-size: cover;
+    }
+    
+    #admin_dashboard_button{
+        width: 100px;
+        height: 50px;
+        background-image: url("dashboard-project.png");
+        background-size: cover;
+    }
 
     
     #bottom{
