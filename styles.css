@@ -123,11 +123,24 @@ button{
     padding: 80px 80px;
     align-items: center;
 }
+
+button:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+    opacity: 0.2;
+}
 #battleship_button{
     width: 200px;
     height: 200px;
     background-image: url("battle_ship.png");
     background-size: cover;
+    
+}
+#project_button_name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 #tictactoe_button{
     width: 200px;
@@ -175,7 +188,7 @@ button{
 
 #project_button_link{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 #project_button_name{
@@ -187,9 +200,11 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 5px;
 }
 #project_description{
     padding-top: 5px;
+    padding-left: 10px;
 }
 #bottom{
     display:flex;
@@ -198,7 +213,7 @@ button{
     align-items: center;
     width: 1050px;
     height: 350px;
-    background-color: lightseagreen;
+    background: rgb(88, 204, 243);
    
    
 }
