@@ -466,7 +466,7 @@ img{
 
     #right_top{
         width: 400px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-rows: 0.5fr 1fr 0.5fr;
         padding-bottom: 15px;
