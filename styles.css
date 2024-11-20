@@ -187,20 +187,16 @@ button:hover{
 }
 
 #project_button_link{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    flex-direction: row;
 }
 
-#project_button_name{
-    padding-right: 60px;
-    padding-top: 5px;
-}
 
 #project_button_link_icon{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 5px;
+    padding-top: 4px;
+    
 }
 #project_description{
     padding-top: 5px;
