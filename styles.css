@@ -151,7 +151,7 @@ button:hover{
 #todolist_button{
     width: 200px;
     height: 200px;
-    background-image: url("todolist.png");
+    background-image: url("restaurant.png");
     background-size: cover;
 }
 
@@ -172,7 +172,7 @@ button:hover{
 #admin_dashboard_button{
     width: 200px;
     height: 200px;
-    background-image: url("dashboard-project.png");
+    background-image: url("Weather.png");
     background-size: cover;
 }
 
@@ -369,7 +369,7 @@ img{
     #todolist_button{
         width: 200px;
         height: 150px;
-        background-image: url("todolist.png");
+        background-image: url("restaurant.png");
         background-size: cover;
     }
     
@@ -390,7 +390,7 @@ img{
     #admin_dashboard_button{
         width: 200px;
         height: 150px;
-        background-image: url("dashboard-project.png");
+        background-image: url("Weather.png");
         background-size: cover;
     }
     
@@ -572,7 +572,7 @@ img{
     #todolist_button{
         width: 100px;
         height: 50px;
-        background-image: url("todolist.png");
+        background-image: url("restaurant.png");
         background-size: cover;
     }
     
@@ -593,7 +593,7 @@ img{
     #admin_dashboard_button{
         width: 100px;
         height: 50px;
-        background-image: url("dashboard-project.png");
+        background-image: url("Weather.png");
         background-size: cover;
     }
 
