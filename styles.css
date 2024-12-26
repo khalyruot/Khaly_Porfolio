@@ -13,13 +13,13 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-10deg, white 40%, rgb(88, 204, 243) 25%);
+    background: linear-gradient(-10deg, white 40%, rgb(166, 216, 233) 25%);
     
 }
 #left_top{
     max-width: 350px;
     height: 250px;
-    background-image: url("khaly_ruot.jpg");
+    background-image: url("software_dev_profile.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -34,7 +34,7 @@ body{
 
 p{
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.9;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
@@ -75,6 +75,10 @@ h1{
 h2{
     font-size: 20px;
     font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #social_media{
@@ -208,27 +212,28 @@ button:hover{
     justify-content: flex-start;
     align-items: center;
     width: 1050px;
-    height: 350px;
-    background: rgb(88, 204, 243);
+    height: 300px;
+    background:rgb(166, 216, 233);
    
    
 }
 #bottom_left{
-    width: 250px;
+    width: 1050px;
     padding-left: 80px;
     padding-right: 80px;
     
 }
-#bottom_right{
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-
-}
 img{
-    max-width: 300px;
+    max-width: 1000px;
     max-height: 250px;
 }
+#social_media_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width: 900px){
     body{
@@ -241,19 +246,19 @@ img{
     
     #top{
         width: 700px;
-        height: 300px;
+        height: 280px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 5px;
-        background: rgb(7, 142, 187);
+        background: rgb(166, 216, 233);
     }
     
     #left_top{
         max-width: 200px;
         height: 250px;
-        background-image: url("khaly_ruot.jpg");
+        background-image: url("software_dev_profile.jpg");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -326,10 +331,10 @@ img{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 700px;
+        width: 650px;
         height: 1000px;
-        background-color: white;
-        padding-left: 90px;
+        background-color: rgba(247, 230, 230, 0.863);
+        padding-left: 50px;
     }
     
 
@@ -400,8 +405,8 @@ img{
         justify-content: flex-start;
         align-items: center;
         width: 700px;
-        height: 300px;
-        background: rgb(7, 142, 187);
+        height: 250px;
+        background: rgb(166, 216, 233);
        
        
     }
@@ -437,15 +442,15 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgb(7, 142, 187);
+        background:rgb(166, 216, 233);
         
     }
     #left_top{
         max-width: 500px;
-        height: 600px;
-        background-image: url("khaly_ruot.jpg");
+        height: 300px;
+        background-image: url("software_dev_profile.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: top;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -462,11 +467,11 @@ img{
 
     #right_top{
         width: 400px;
-        height: 200px;
+        height: 100px;
         display: grid;
         grid-template-rows: 0.5fr 1fr 0.5fr;
         padding-bottom: 15px;
-        background: rgb(7, 142, 187);
+        background: rgb(166, 216, 233);
         box-shadow: 0px 0px;
     }
    
@@ -474,6 +479,7 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        display: none;
         
         
     }
@@ -604,8 +610,8 @@ img{
     justify-content: flex-start;
     align-items: center;
     width: 500px;
-    height: 250px;
-    background: rgb(7, 142, 187);
+    height: 200px;
+    background: rgb(166, 216, 233);
 
     }
     #bottom_left{
