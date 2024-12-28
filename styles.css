@@ -19,7 +19,7 @@ body{
 #left_top{
     max-width: 350px;
     height: 250px;
-    background-image: url("software_dev_profile.jpg");
+    background-image: url("khaly_ruot.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -258,7 +258,7 @@ img{
     #left_top{
         max-width: 200px;
         height: 250px;
-        background-image: url("software_dev_profile.jpg");
+        background-image: url("khaly_ruot.jpg");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -447,10 +447,10 @@ img{
     }
     #left_top{
         max-width: 500px;
-        height: 300px;
-        background-image: url("software_dev_profile.jpg");
+        height: 200px;
+        background-image: url("khaly_ruot.jpg");
         background-size: cover;
-        background-position: top;
+        background-position: center;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
