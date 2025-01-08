@@ -98,10 +98,10 @@ a{
 #project{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-left: 150px;
-    height: 800px;
-    
+    height: 1100px;
     
 }
 #my_work{
@@ -109,7 +109,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     padding-left: auto;
-   
+
 }
 
 #middle_project{
@@ -117,7 +117,7 @@ a{
     width: 1050px;
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
     column-gap: 150px;
     row-gap: 250px;
     justify-content: flex-start;
@@ -134,6 +134,14 @@ button:hover{
     transform: scale(1.1);
     opacity: 0.2;
 }
+
+#memory_card{
+    width: 200px;
+    height: 200px;
+    background-image: url("Memory_card.png");
+    background-size: cover;
+}
+
 #battleship_button{
     width: 200px;
     height: 200px;
@@ -155,7 +163,7 @@ button:hover{
 #todolist_button{
     width: 200px;
     height: 200px;
-    background-image: url("restaurant.png");
+    background-image: url("restauran.png");
     background-size: cover;
 }
 
