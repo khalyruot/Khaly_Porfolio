@@ -340,7 +340,7 @@ img{
         flex-direction: column;
         justify-content: flex-start;
         width: 650px;
-        height: 1200px;
+        height: 1300px;
         background-color: rgba(247, 230, 230, 0.863);
         padding-left: 50px;
     }
@@ -367,6 +367,12 @@ img{
         align-items: center;
     }
 
+    #memory_card{
+        width: 200px;
+        height: 150px;
+        background-image: url("Memory_card.png");
+        background-size: cover;
+    }
     #battleship_button{
         width: 200px;
         height: 150px;
@@ -382,7 +388,7 @@ img{
     #todolist_button{
         width: 200px;
         height: 150px;
-        background-image: url("restaurant.png");
+        background-image: url("restauran.png");
         background-size: cover;
     }
     
@@ -544,7 +550,7 @@ img{
         justify-content: flex-start;
         align-items: center;
         width: 500px;
-        height: 1500px;
+        height: 2000px;
         background-color:rgba(247, 230, 230, 0.863);
         padding-left: 0px;
         
@@ -571,42 +577,49 @@ img{
         align-items: center;
         
     }
+    #memory_card{
+        width: 200px;
+        height: 150px;
+        background-image: url("Memory_card.png");
+        background-size: cover;
+    }
+
     #battleship_button{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
         background-image: url("battle_ship.png");
         background-size: cover;
     }
     #tictactoe_button{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
         background-image: url("tictaktoe.png");
         background-size: cover;
     }
     #todolist_button{
-        width: 100px;
-        height: 50px;
-        background-image: url("restaurant.png");
+        width: 200px;
+        height: 150px;
+        background-image: url("restauran.png");
         background-size: cover;
     }
     
     #calculator_project{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
         background-image: url("calculator.jpg");
         background-size: cover;
     }
     
     #sign_up_form_button{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
         background-image: url("sign-up-form.png");
         background-size: cover;
     }
     
     #admin_dashboard_button{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
         background-image: url("Weather.png");
         background-size: cover;
     }
